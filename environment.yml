@@ -1,0 +1,13 @@
+# To use:
+  # $ conda env create -f environment.yml
+  # $ conda activate cv
+name: ML
+dependencies:
+  - python
+  - pip
+  - pip:
+    - ipykernel
+    - numpy
+    - pandas
+    - scikit-learn
+    - matplotlib
