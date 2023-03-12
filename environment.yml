@@ -3,11 +3,12 @@
   # $ conda activate cv
 name: ML
 dependencies:
-  - python
-  - pip
-  - pip:
+    - python=3.10
     - ipykernel
     - numpy
     - pandas
     - scikit-learn
     - matplotlib
+    - pytorch
+    - pytorch-lightning
+    - tensorboard
